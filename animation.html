@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: whitesmoke;
+
+        }
+
+        .container {
+            /* border: 2px solid firebrick; */
+            display: flex;
+            height: 400px;
+            
+            
+        }
+        
+        #box1 {
+            /* border: 2px solid green; */
+            height: 182px;
+            width: 182px;
+            background-color: black;
+            box-shadow: 5px 4px 34px  black;
+            animation-name: animation;
+            animation-duration: 7s;
+            animation-iteration-count: 1;
+            
+            
+        }
+        
+        @keyframes animation {
+            0% {
+                box-shadow: 5px 4px 34px black;
+                height: 182px;
+                width: 182px;
+            }
+            
+            14% {
+                background-color: red;
+                border-radius: 39px;
+                box-shadow: 5px 4px 34px  red;
+                height: 65px;
+                width: 65px;
+                margin-top: 16%;
+                margin-left: 16%;
+            }
+            
+            28% {
+                box-shadow: 5px 4px 34px  orange;
+                background-color: orange;
+                margin-top: 3%;
+                margin-left: 28%;
+                
+            }
+            
+            42% {
+                box-shadow: 5px 4px 34px  yellow;
+                background-color: yellow;
+                margin-top: 16%;
+                margin-left: 38%;
+                
+            }
+            
+            56% {
+                background-color: green;
+                box-shadow: 5px 4px 34px  green;
+                margin-top: 3%;
+                margin-left: 51%;
+                
+            }
+
+            70% {
+                background-color: blue;
+                box-shadow: 5px 4px 34px  blue;
+                
+                margin-top: 16%;
+                margin-left: 62%;
+
+            }
+
+            84% {
+                background-color: indigo;
+                box-shadow: 5px 4px 34px indigo;
+                margin-top: 3%;
+                margin-left: 77%;
+            }
+            
+            98% {
+                background-color: violet;
+                box-shadow: 5px 4px 34px violet;
+                border-radius: 39px;
+                height: 65px;
+                width: 65px;
+                margin-top: 16%;
+                margin-left: 88%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p id="box1"></p>
+    </div>
+</body>
+
+</html>
